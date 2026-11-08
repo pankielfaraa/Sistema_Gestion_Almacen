@@ -1,17 +1,15 @@
-# Archivos de Python
+
 __pycache__/
 *.pyc
 *.pyo
 
-# Entornos virtuales
 venv/
 .venv/
 
-# Configuración de Visual Studio Code
 .vscode/
 
-# Archivos temporales
 *.log
 
-# Datos privados
 .env
+
+Database/conexion.py
