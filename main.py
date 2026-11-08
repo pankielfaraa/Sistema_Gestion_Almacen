@@ -3,6 +3,7 @@ import tkinter as tk
 from tkinter import ttk
 
 from Vistas.inicio import mostrar_inicio
+from Vistas.productos import mostrar_productos
 
 
 # CREACIÓN DE LA VENTANA
@@ -79,6 +80,9 @@ def mostrar_pantalla(opcion):
 
     if opcion == "Inicio":
         mostrar_inicio(contenido)
+
+    elif opcion == "Productos":
+        mostrar_productos(contenido)
 
 
 
