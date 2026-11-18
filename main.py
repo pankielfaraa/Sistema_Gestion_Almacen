@@ -5,6 +5,13 @@ from tkinter import ttk
 from Vistas.inicio import mostrar_inicio
 from Vistas.productos import mostrar_productos
 
+from Vistas.categorias import mostrar_categorias
+from Vistas.compras import mostrar_compras
+from Vistas.inventario import mostrar_inventario
+from Vistas.proveedores import mostrar_proveedores
+from Vistas.usuarios import mostrar_usuarios
+from Vistas.ventas import mostrar_ventas
+
 
 # CREACIÓN DE LA VENTANA
 
@@ -83,6 +90,19 @@ def mostrar_pantalla(opcion):
 
     elif opcion == "Productos":
         mostrar_productos(contenido)
+
+    elif opcion == "Categorías":
+        mostrar_categorias(contenido)
+    elif opcion == "Compras":
+        mostrar_compras(contenido)
+    elif opcion == "Ventas":
+        mostrar_ventas(contenido)
+    elif opcion == "Proveedores":
+        mostrar_proveedores(contenido)
+    elif opcion == "Inventario":
+        mostrar_usuarios(contenido)
+    elif opcion == "Inventario":
+        mostrar_inventario(contenido)
 
 
 

@@ -1,4 +1,3 @@
-
 __pycache__/
 *.pyc
 *.pyo
@@ -11,5 +10,3 @@ venv/
 *.log
 
 .env
-
-Database/conexion.py
