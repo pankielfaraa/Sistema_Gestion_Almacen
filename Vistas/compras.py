@@ -35,7 +35,7 @@ def mostrar_compras(contenido):
     campos.pack(fill="x", padx=20, pady=10)
 
     tk.Label(campos, text="Número de compra", bg="white").grid(row=0, column=0, sticky="w", padx=5)
-    tk.Entry(campos, width=25).grid(row=1, column=0, padx=5, pady=8)
+    tk.Entry(campos, width=30).grid(row=1, column=0, padx=5, pady=8)
 
     tk.Label(campos, text="Proveedor", bg="white").grid(row=0, column=1, sticky="w", padx=5)
     ttk.Combobox(
